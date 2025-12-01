@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "danger": "node --loader bun-loader danger ci",
+    "danger": "bun run danger ci",
     "lint": "eslint"
   },
   "dependencies": {
