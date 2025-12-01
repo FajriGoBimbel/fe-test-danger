@@ -1,3 +1,9 @@
+console.log("Running Danger for PR:", danger.github.pr.number);
+
+// Test message — seharusnya MUNCUL di komentar
+message("🔧 Test message from Danger — jika ini muncul, Danger berjalan!");
+
+
 // Menandai PR kecil
 const isSmallPR = danger.github.pr.additions < 50;
 
